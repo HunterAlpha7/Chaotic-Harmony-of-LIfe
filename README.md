@@ -25,7 +25,7 @@ $ npm install common-sense
 
 ## 🐛 Known Issues (Bugs)
 
-### 1. The ```Im-Fine``` Packet Loss
+### 1. The ```I'm-Fine``` Packet Loss
 * **Severity:** Critical
 * **Description:** When the User sends the string "I'm fine," the system registers it as a simple status update. However, the actual payload contains 4GB of encrypted emotional data that the MLU fails to decrypt.
 * **Workaround:** Do not attempt to parse. Initiate `apology_sequence.exe` immediately.
