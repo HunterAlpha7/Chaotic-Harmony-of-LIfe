@@ -25,17 +25,17 @@ $ npm install common-sense
 
 ## 🐛 Known Issues (Bugs)
 
-### 1. The "I'm Fine" Packet Loss
+### 1. The ```Im-Fine``` Packet Loss
 * **Severity:** Critical
 * **Description:** When the User sends the string "I'm fine," the system registers it as a simple status update. However, the actual payload contains 4GB of encrypted emotional data that the MLU fails to decrypt.
 * **Workaround:** Do not attempt to parse. Initiate `apology_sequence.exe` immediately.
 
-### 2. The "Restaurant" Infinite Loop
+### 2. The Restaurant Infinite Loop
 * **Severity:** High
 * **Description:** The function `select_dinner_location()` enters a circular dependency where `User_A` waits for `User_B`, who waits for `User_C`, who rejects all proposals.
 * **Current Fix:** Hard reset required (Male Override).
 
-### 3. Memory Leak (The "2019" Archive)
+### 3. Memory Leak (The 2019 Archive)
 * **Severity:** Moderate
 * **Description:** The system retains high-fidelity logs of every minor argument since 2019. These logs occupy 90% of available RAM during new disputes, causing significant performance degradation.
 
